@@ -8,6 +8,19 @@
   pointer-events: none;
 }
 
+h1{
+  color: red;
+}
+
+img {
+  border: solid rebeccapurple;
+}
+
+.wow {
+  
+ border: dashed blue; 
+}
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -17,7 +30,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
