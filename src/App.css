@@ -1,26 +1,14 @@
+@import '~antd/dist/antd.css';
+
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
-  pointer-events: none;
 }
 
-h1{
-  color: red;
-}
-
-img {
-  border: solid rebeccapurple;
-}
-
-.wow {
-  
- border: dashed blue; 
-}
-/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,17 +18,106 @@ img {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-} */
-
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-link {
+  color: #09d3ac;
+}
+
+.myLuggage {
+  height: 50px;
+}
+
+
+.myKey {
+  height: 50px;
+}
+.myPass{
+  height: 50px;
+}
+
+.userProfile{
+  height:50px;
+}
+
+.myAir
+  {
+    height:50px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.myWallet{
+  height:50px;
+}
+.addIcon{
+  height:50px;
+}
+
+.topOfThePage{
+  display: flex;
+  flex-direction:row ;
+  margin-bottom: 5ch;
+  border-block-end-color: #282c34;
+}
+
+.activateBox{
+  color: white;
+  
+  background:  red;
+
+  border-width:5px;
+}
+
+.手机顶部通知{
+  border-block-style: dotted;
+  font-size: 4ch;
+  font-style: italic;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fde073;
+    text-align: center;
+    line-height: 2.5;
+    overflow: hidden; 
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow:    0 0 5px black;
+    box-shadow:         0 0 5px black;
+}
+
+.reminder{
+  font-size: 5ch;
+  color: red;
+  text-emphasis: bold;
+  margin-top: 50px;
+  font-style: italic;
+
+}
+
+.carApproachingDestination{
+  height: 270px;
+  position: relative;
+  margin-left:24px;
+  
+  
+}
+
+.parentReminder{
+ height:200px;}
+
+.payment{
+ height: 50px;
+ margin-top: 250px;
+ left:50px;
+ position: relative;
+ 
+}
+
+.printItems{
+  height:100px;
+  position:relative;
+  top:200px;
+  left:100px;
+  bottom:200px;
+  right:200px;
+  display:row;
 }
